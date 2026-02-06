@@ -1,0 +1,160 @@
+*{
+    margin:0px ;
+    padding:0px ;
+     box-sizing: border-box;
+     font-family:cursive;
+}
+body {
+    background-color:  #8e5a9e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;}
+
+        .main-container {
+            display: flex;
+            width: 950px;
+            height: 705px;
+            background: white;
+            border-radius: 30px;
+            overflow: hidden;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2)
+        }
+
+        .astro h1{
+                
+            font-size: 28px;
+            font-weight: 600;
+            line-height: 1.2;
+            width: 80%;
+        }
+
+        .tagline {
+                margin-top: 3rem;
+            font-size: 28px;
+            font-weight: 600;
+            line-height: 1.2;
+            width: 80%;
+        }
+
+        .footer {
+            position: absolute;
+            bottom: 40px;
+            font-size: 12px;
+            opacity: 0.8;
+        }
+
+        .upper{
+            
+            flex: 1.2;
+            padding: 40px 60px;
+        }
+
+        .nav{
+                 text-align: right;
+            font-size: 12px;
+            margin-bottom: 30px;
+        }
+
+        .nav a{
+            
+            text-decoration: none;
+            color: #000;
+            font-weight: 600;
+        }
+
+        .signin h2{
+            font-size: 26px;
+            margin-bottom: 25px;
+        }
+
+        .link{
+            display: flex;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+
+        .link button{
+            padding: 10px;
+            border: none;
+            border-radius: 20px;
+            font-size: 12px;
+        }
+
+        .btn-google{
+            background-color: #440f55;
+            color: white;
+        }
+
+        .btn-facebook{
+             background: #f0f0f5;
+            color: #555;
+        }
+
+        .divider{
+            font-size:11px;
+            color:#888;
+            margin-bottom: 20px;
+        
+        }
+
+        .text{
+            margin-bottom: 15px;
+        }
+
+        .text label{
+            display: block;
+            font-size:12px ;
+            font-weight: 600;
+            margin-bottom: 5px;
+        }
+
+        .text input{
+             width: 100%;
+            padding: 12px 15px;
+            background: #f0f0f5;
+            border: none;
+            border-radius: 10px;
+            outline: none;
+        }
+        .submit {
+            width: 100%;
+            padding: 14px;
+            background: #110022;
+            color: white;
+            border: none;
+            border-radius: 25px;
+            font-weight: 600;
+                margin: -5px;
+    margin-top: 1rem;
+        
+        }
+
+        .extra-links {
+            display: flex;
+            justify-content:space-between ;
+            font-size:11px;
+            margin-top: 1rem;
+
+        }
+
+        .extra-links a {
+            text-decoration: none;
+              font-weight: 600;}
+
+        .image-section{
+             background: url('https://m.media-amazon.com/images/I/51l13SeBYsL.jpg') center/cover no-repeat;
+             position: relative;
+            padding: 40px;
+            color: white;
+                width: 29rem;
+}
+        
+
+
+
+    
+
+        
+
+

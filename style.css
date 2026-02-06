@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family:cursive;
+}
+
+body {
+    background-color: rgb(104, 50, 128);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.the-whole-page {
+    display: flex;
+    width: 905px;
+    height: 705px;
+    background-color: white;
+    border-radius: 30px;
+    overflow: hidden;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2); }
+    /* padding: 49px; */
+
+
+.imgtext h1{
+    font-size: 24px;
+    font-weight: 600;
+     margin-bottom: 40px;
+}
+
+        .tagline {
+            font-size: 28px;
+            font-weight: 600;
+            line-height: 1.2;
+            width: 80%;
+        }
+ 
+        .footer {
+            position: absolute;
+            bottom: 54px;
+            font-size: 12px;
+            opacity: 0.8;}
+
+            .form-section {
+            flex: 1.2;
+            padding: 40px 60px;
+            position: relative;
+        }
+
+
+        .signin{
+            text-align: right;
+            font-size: 12px;
+            margin-bottom: 30px;
+        }
+
+        .signin a{
+            text-decoration: none;
+            color: #000;
+            font-weight: 600;
+        
+        }
+
+
+        .mainsign h2{
+            font-size: 26px;
+            margin-bottom: 25px;
+        }
+
+        .link{
+             display: flex;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+
+        .link button{
+              flex: 1;
+            padding: 10px;
+            border: none;
+            border-radius: 20px;
+            font-size: 12px;
+            cursor: pointer;
+        }
+
+        .btn-google {
+            background: #4b306a;
+            color: white;
+        }
+ 
+        .btn-facebook {
+            background: #f0f0f5;
+            color: #555;
+        }
+
+          .divider {
+            font-size: 11px;
+            color: #888;
+            margin-bottom: 20px;
+        }
+
+        .input label {
+            display: block;
+            font-size: 12px;
+            font-weight: 600;
+            margin-bottom: 5px;
+        }
+
+        .input input {
+            width: 100%;
+            padding: 12px 15px;
+            background: #f0f0f5;
+            border: none;
+            border-radius: 10px;
+            outline: none;
+        }
+
+
+        .box {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-size: 11px;
+            margin: 15px 0;
+        }
+
+
+        .submit{
+
+
+              width: 100%;
+            padding: 14px;
+            background: #110022;
+            color: white;
+            border: none;
+            border-radius: 25px;
+            font-weight: 600;
+            cursor: pointer;
+            margin-bottom: 15px;
+        }
+
+
+        .tick {
+            text-align: center;
+            font-size: 12px;
+            color: #888;
+        }
+
+        .tick a{
+            color: #000;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        .image{
+            flex: 1;
+            background: url('https://m.media-amazon.com/images/I/51l13SeBYsL.jpg') center/cover no-repeat;
+            position: relative;
+            padding: 40px;
+            color: white;}
+
+            .Signin a{
+                text-decoration: none;
+            }
+
+
+
+
+
+
+
+
+
+
+    
+       
