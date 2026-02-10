@@ -84,11 +84,13 @@ body {
         .btn-google{
             background-color: #440f55;
             color: white;
+            cursor:pointer;
         }
 
         .btn-facebook{
              background: #f0f0f5;
             color: #555;
+            cursor:pointer;
         }
 
         .divider{
@@ -126,7 +128,8 @@ body {
             border-radius: 25px;
             font-weight: 600;
                 margin: -5px;
-    margin-top: 1rem;
+            margin-top: 1rem;
+            cursor: pointer;
         
         }
 
